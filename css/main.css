@@ -1,0 +1,176 @@
+.container{
+   width: 100%;
+   max-width: 1340px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.box{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 20px;
+}
+
+.heading{
+   margin: 0;
+   margin-bottom: 25px;
+   font-size: 40px;
+   text-align: center;
+   color: #444;
+}
+
+.list{ 
+   height: 650px; 
+   margin: 0;
+   padding: 15px;
+   border: solid 2px #333;
+   border-radius: 10px;
+   list-style-type: none;
+   overflow: scroll;
+}
+
+.users__item{
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.posts__item{
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.comments__item{
+   margin: 0;
+   margin-bottom: 15px;
+}
+
+.username{
+   display: block;
+   margin-bottom: 15px;
+   padding: 5px;
+   font-size: 18px;
+   text-align: center;
+   border-radius: 5px ;
+   background-color: #888;
+}
+
+.user__full--name{
+   margin: 0;
+   margin-bottom: 15px;
+   font-size: 24px;
+   text-align: center;
+   color: #333;
+}
+
+.user__email{
+   display: inline-block;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   text-decoration: none;
+   text-align: center;
+}
+
+.user__website{
+   display: inline-block;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   text-decoration: none;
+   text-align: center;
+}
+
+.user__geo{
+   display: inline-block;
+   margin-bottom: 10px;
+   margin-left: 35px;
+   text-decoration: none;
+   text-align: center;
+   color: #000ee0;
+}
+
+.user__address{
+   display: block;
+   width: 250px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.user__company{
+   display: block;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.company__name{
+   display: block;
+   margin-bottom: 8px;
+}
+
+.company__catch-phrase{
+   display: block;
+   margin-bottom: 8px;
+}
+
+.company__bs{
+   display: block;
+   margin-bottom: 8px;
+}
+
+.company__phone{
+   display: block;
+   text-decoration: none;
+}
+
+.btn{
+   display: block;
+   width: 100px;
+   margin: 0 auto;
+   margin-bottom: 15px;
+   padding: 5px;
+   background-color: #000ee0;
+   color: wheat;
+}
+
+.btn:hover{
+   opacity: 0.8;
+}
+
+.btn:active{
+   border: red 2px solid;
+}
+
+.post__title{
+   margin: 0;
+   margin-bottom: 10px;
+   font-size: 20px;
+   text-align: center;
+   color: #333;
+}
+
+.post__text{
+   margin: 0;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.comment__title{
+   margin: 0;
+   margin-bottom: 10px;
+   font-size: 20px;
+   text-align: center;
+   color: #333;
+}
+
+.user__email-comment{
+   display: block;
+   margin-bottom: 10px;
+   text-decoration: none;
+   text-align: center
+}
+
+.comment__text{
+   margin: 0;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
