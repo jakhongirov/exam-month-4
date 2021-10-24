@@ -143,6 +143,9 @@ elUsersList.addEventListener('click', function (evt) {
 
 		const foundPost = posts.filter((post) => post.userId == userId);
 
+		elPostsList.innerHTML = null ; 
+		elCommentsList.innerHTML = null;
+		
 		renderPosts(foundPost, elPostsList);
 	}
 });
